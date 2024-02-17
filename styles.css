@@ -2,16 +2,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(https://images.unsplash.com/photo-1499810631641-541e76d678a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); /* Replace 'your-background-image.jpg' with your image file */
+    background-image: url(desktop-wallpaper-black-gradient-background-texture.jpg); /* Replace 'your-background-image.jpg' with your image file */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: ##15171A;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,16 +20,18 @@ body {
 }
 
 h1 {
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 20px;
     transition: color 0.5s ease;
+    filter: invert();
+    ;
 
 }
 
 .question {
     margin-bottom: 20px;
-    background: linear-gradient(to right, #d6e0f0, #ffff4c);
+    background: linear-gradient(to right, #d6e0f0, #d99042);
     padding: 15px;
     border-radius: 8px;
     transition: background 0.5s ease-in-out;
@@ -61,7 +64,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #45a049, #66a366); /* Gradient from darker green to lighter darker green */
+    background: linear-gradient(to right, #509453, #0ba40b); /* Gradient from darker green to lighter darker green */
 }
 
 /* Optional: Add a subtle hover effect to the radio buttons for better feedback */
